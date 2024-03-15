@@ -1,56 +1,15 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teachable Machine Image Model</title>
-
-    <style>
-        h1 {
-            text-align: center;
-            color: white;
-        }
-
-        p {
-            text-align: center;
-            color: white;
-        }
-
-        #webcam-container {
-            text-align: center;
-        }
-    </style>
-
-    <div style="text-align: center;">
-        <img src="IMG_1497.jpeg" width="321" height="190" />
-    </div>
-
-    <h1>
-        <b> Hi, my fellow archivists! </b>
-    </h1>
-
 </head>
-
-<body style="background-color: #0D0A05;">
-
-    <p>Welcome to my webpage! </p>
-
-    <p style="padding: 10px; border: 2px;"> For my webpage, I added one of my favorite photos to my header. I then altered the background color to better match it.
-        Once this was done, I changed the style of my texts to white so they would stand out against the new background.
-        With everything stylized, I formatted my elements to all align center, and here we are! To wrap it all up, I added the link below.
-    </p>
-
-    <p> I have a huge love of music, so I thought it would be best to use my page to highlight my favorite playlist! </p>
-
+<body>
+    <div>Teachable Machine Image Model</div>
+    <button type="button" onclick="init()">Start</button>
     <div id="webcam-container"></div>
-
     <div id="label-container"></div>
-
-    <div style="text-align:center">
-        <button type="button" onclick="init()">Start</button>
-    </div>
-
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
     <script type="text/javascript">
@@ -106,11 +65,5 @@
             }
         }
     </script>
-
-    <div style="text-align:center">
-        <a href="https://open.spotify.com/playlist/4JGcOEHsXq3FLjOovUn1KA?si=571a87f48f344b6b" style="color: white;"> You can find the link here!</a>
-    </div>
-
 </body>
-
 </html>
